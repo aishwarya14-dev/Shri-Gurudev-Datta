@@ -1,0 +1,46 @@
+name: shri_gurudev_datta
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  
+  gtext: ^0.0.3
+  maps_launcher: ^2.2.0
+  youtube_api: ^1.0.4
+  animated_text_kit: ^4.2.2
+  youtube_data_api: ^1.0.4
+  rxdart: ^0.27.7
+  youtube_player_flutter: ^8.1.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+
+    - assets/icons/
+
+    - assets/lang/
